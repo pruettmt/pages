@@ -27,8 +27,8 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about/">About</a>
+            <a href="{{ site.baseurl }}/" class="{% if page.url == '/' %}active{% endif %}">Blog</a>
+            <a href="{{ site.baseurl }}/about/" class="{% if page.url contains 'about' %}active{% endif %}">About</a>
           </nav>
         </header>
       </div>
