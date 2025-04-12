@@ -7,49 +7,28 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-        font-family: 'Inter', sans-serif;
-        background-color: #f9fafb;
-        color: #333;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-      }
-
-      .landing {
-        text-align: center;
-      }
-
-      .landing h1 {
-        font-size: 3rem;
-        margin: 0;
-      }
-
-      .landing h1 a {
-        color: #2e86de;
-        text-decoration: none;
-        transition: color 0.2s ease-in-out;
-      }
-
-      .landing h1 a:hover {
-        color: #1b4f99;
-      }
-
-      .landing p {
-        font-size: 1.25rem;
-        margin-top: 0.5rem;
-        color: #555;
-      }
-    </style>
   </head>
   <body>
-    <main class="landing">
-      <h1><a href="about.html">MT Pruett</a></h1>
-      <p>DevOps, Automation, and Cloud Engineering</p>
-    </main>
+    <div class="about-page">
+      <nav class="topnav">
+        <a href="index.html" class="active">About</a>
+        <a href="blog/">Blog</a>
+      </nav>
+      <main class="content">
+        <h1>Hi, I'm MT Pruett</h1>
+        <p>
+          I'm a DevOps engineer who thrives at the intersection of automation, cloud infrastructure,
+          and clean, scalable systems.
+        </p>
+        <ul>
+          <li>🔧 I build scalable CI/CD pipelines</li>
+          <li>☁️ I work primarily in Azure, Terraform, and Databricks</li>
+          <li>💡 I value automation, reproducibility, and elegant infrastructure</li>
+        </ul>
+        <p>
+          When I'm not automating cloud workloads, I'm likely learning something new, refining a system, or working on cool side projects.
+        </p>
+      </main>
+    </div>
   </body>
 </html>
