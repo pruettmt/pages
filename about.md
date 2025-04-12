@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About Me"
-permalink: /about
+permalink: /about/
 ---
 
 Hey! I'm a DevOps engineer who lives in Azure, Terraform, and Databricks.
