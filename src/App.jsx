@@ -2,18 +2,18 @@ import React from "react";
 
 export default function LandingPage() {
   return (
-    <div className="min-h-screen bg-gray-950 text-white font-sans">
+    <div className="min-h-screen bg-gray-950 text-white font-figtree">
       <div className="max-w-3xl mx-auto px-4 py-12 text-center">
-        <div className="flex justify-center mb-6">
+        <div className="flex justify-center mb-4">
           <img
             src="https://github.com/pruettmt.png"
             alt="MT Pruett GitHub Profile"
-            className="w-24 h-24 rounded-full border-2 border-gray-600"
+            className="w-16 h-16 rounded-full border border-gray-600 shadow-lg"
           />
         </div>
-        <h1 className="text-3xl md:text-4xl font-bold mb-8">MT Pruett</h1>
+        <h1 className="text-2xl md:text-3xl font-semibold mb-8 tracking-tight">MT Pruett</h1>
 
-        <div className="space-y-6 text-gray-300 text-left">
+        <div className="space-y-6 text-gray-300 text-left text-[15px] leading-relaxed">
           <p>
             I'm a DevOps engineer who lives in Azure, Terraform, and Databricks.
           </p>
@@ -28,7 +28,7 @@ export default function LandingPage() {
           </p>
 
           <div>
-            <h2 className="text-2xl font-semibold mb-2">What I use a lot:</h2>
+            <h2 className="text-xl font-semibold mb-2">What I use a lot:</h2>
             <ul className="list-disc list-inside space-y-1">
               <li>Azure (infra, security, automation, monitoring — the usual suspects)</li>
               <li>Terraform (IaC modules, state management, CI integration)</li>
@@ -39,9 +39,7 @@ export default function LandingPage() {
             </ul>
           </div>
 
-          <p>
-            Thanks for dropping by.
-          </p>
+          <p>Thanks for dropping by.</p>
           <p>
             Just a heads up — I assume tools like Terraform, Git, VS Code, and any CLIs are already installed if you’re following along. I'll try to skip the setup fluff and get right to the good stuff.
           </p>
