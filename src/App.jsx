@@ -24,13 +24,13 @@ export default function LandingPage() {
         <li>Terraform (IaC modules, state management, CI integration)</li>
         <li>Databricks (workspace admin, Unity Catalog, job orchestration, ACLs)</li>
         <li>CI/CD: GitHub Actions, Azure DevOps, Octopus</li>
-        <li>Scripting: PowerShell, Bash, SQL, Git</li>
+        <li>Scripting: PowerShell, Bash, SQL, Git, C# (primarily for internal tooling, not full-scale development)</li>
         <li>Tooling: VS Code, Git, terminal life</li>
       </ul>
 
       <p>Thanks for dropping by.</p>
       <p>Just a heads up — I assume tools like Terraform, Git, VS Code, and any CLIs are already installed if you’re following along. I'll try to skip the setup fluff and get right to the good stuff.</p>
-      <p>I take security seriously — so if I’m sharing real-world configs or issues I’ve worked through, I’ll always scrub out resource names, GUIDs, and anything sensitive. Sometimes it might feel like overkill, but better safe than sorry.</p>
+      <p>I take security seriously — so all sensitive tokens, and if I’m sharing real-world configs, I’ll always scrub out resource names and GUIDs. Sometimes it might feel like overkill, but better safe than sorry.</p>
     </div>
   );
 }
