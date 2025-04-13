@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-
+/*did it work*/
 export default function LandingPage() {
   return (
     <div className="page">
