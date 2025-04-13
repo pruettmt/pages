@@ -2,7 +2,6 @@ import React from "react";
 import "./index.css";
 
 export default function LandingPage() {
-  const [isSetupOpen, setIsSetupOpen] = useState(false);
   return (
     <div className="page">
       <div className="header">
@@ -12,23 +11,6 @@ export default function LandingPage() {
           className="avatar"
         />
         <h1>MT Pruett</h1>
-
-        <nav className="nav">
-          <a href="#more">More</a>
-
-          <div className="dropdown">
-            <button className="setup-button" onClick={() => setIsSetupOpen((prev) => !prev)}>
-              Setup ▾
-            </button>
-
-            {isSetupOpen && (
-              <div className="dropdown-menu">
-                <a href="#tools">Terraform & CLI Setup</a>
-                <a href="#security">Security Notes</a>
-              </div>
-            )}
-          </div>
-        </nav>
       </div>
 
       <p>I'm a DevOps engineer who lives in Azure, Terraform, and Databricks.</p>
