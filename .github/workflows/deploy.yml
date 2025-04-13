@@ -6,7 +6,8 @@ on:
       - main  # or 'master' if your default branch is named that
 
 permissions:
-  contents: write  # required to push to gh-pages
+  id-token: write
+  pages: write
 
 jobs:
   deploy:
