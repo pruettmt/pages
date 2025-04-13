@@ -11,6 +11,24 @@ export default function LandingPage() {
           className="avatar"
         />
         <h1>MT Pruett</h1>
+
+        <nav className="nav">
+      <a href="#more">More</a>
+
+      <div className="dropdown">
+        <button onClick={() => setIsSetupOpen(!isSetupOpen)} className="setup-button">
+          Setup ▾
+        </button>
+
+        {isSetupOpen && (
+          <div className="dropdown-menu">
+            <a href="/setup/terraform">Terraform Setup</a>
+            <a href="/setup/databricks">Databricks Setup</a>
+            <a href="/setup/azure">Azure Config</a>
+          </div>
+        )}
+      </div>
+    </nav>
       </div>
 
       <section>
