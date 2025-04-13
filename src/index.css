@@ -16,7 +16,10 @@ body {
 }
 
 .header {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* keep it centered horizontally */
+  gap: 1rem; /* spacing between avatar and name */
 }
 
 .avatar {
