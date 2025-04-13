@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/your-repo-name/', // 👈 must match GitHub repo name#
+  base: '/pages/', // 👈 must match GitHub repo name#
 });
