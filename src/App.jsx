@@ -30,7 +30,7 @@ export default function LandingPage() {
 
       <p>Thanks for dropping by.</p>
       <p>Just a heads up — I assume tools like Terraform, Git, VS Code, and any CLIs are already installed if you’re following along. I'll try to skip the setup fluff and get right to the good stuff.</p>
-      <p>I take security seriously — so all sensitive tokens and, if I’m sharing real-world configs, resource names and GUIDs will be scrubbed out. Sometimes it might feel like overkill, but better safe than sorry.</p>
+      <p>I take security seriously — so all sensitive tokens will be scrubbed out, and if I’m sharing real-world configs, resource names and GUIDs will be too. Sometimes it might feel like overkill, but better safe than sorry.</p>
     </div>
   );
 }
